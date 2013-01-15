@@ -1,74 +1,174 @@
-<!DOCTYPE html>
-<html>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="cubesare.github.com : Cubes are... Ein modulares Schranksystem für Kleidung und andere Dinge." />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Cubes are...</title>
+    <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css' />
+    <style type="text/css">
+    body {
+      padding: 5px;
+      background: #fff url('img/hintergrund_01.jpg');
+      background-repeat: repeat-y; 
+      font-family: 'Gudea', Arial, Helvetica, sans-serif;
+    }
+    p {
+      color: #333;  
+      font-size: 15px;
+    }
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    .person {
+      margin-left: 25px;
+    }
 
-    <title>cubesare.github.com</title>
+    h1 {
+      margin-top: 20px;
+    }
+
+    img {
+      border: 0px;
+    }
+
+    .gallery ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 20px 0 0 0;
+    }
+
+    .gallery ul li {
+      background: #fff;
+      float: left;
+      border: 3px solid #fff;
+      -webkit-transition: ima 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+    }
+
+    .main-container {
+      width: 738px;
+      border: 1px solid white;
+      background-color: white;
+      padding: 30px;
+      overflow: auto;
+      margin: 0 auto;
+      margin-bottom: -30px;
+      margin-top: 65px;
+    }
+
+    .navbar .nav {
+      width: 351px;
+      margin-left: 275px;
+    }
+
+    /* Contain floats: h5bp.com/q */
+    .clearfix:before, .clearfix:after { content: ""; display: table; }
+    .clearfix:after { clear: both; }
+    .clearfix { *zoom: 1; }
+    </style>
   </head>
 
-  <body>
+  <body class="vevent" data-spy="scroll" data-target=".navbar" data-twttr-rendered="true">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/koos/cubesare.github.com">View on GitHub</a>
-
-          <h1 id="project_title">cubesare.github.com</h1>
-          <h2 id="project_tagline">Cubes are... Ein modulares Schranksystem für Kleidung und andere Dinge.</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/koos/cubesare.github.com/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/koos/cubesare.github.com/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+    <div class="main-container top" id="start">
+      <h1>Cubes are...</h1>
+      <h2>Ein modulares Schranksystem für Kleidung und andere Dinge.</h2>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
+    <div class="navbar navbar-fixed-top hidden-phone hidden-tablet">
+       <div class="navbar-inner">
+         <div class="container"> 
+             <ul class="nav">
+               <li class="active"><a href="#start">Start</a></li>
+               <li><a href="#samples">Beispiele</a></li>
+               <li><a href="#wantacube" >Mein Cube</a></li>
+               <li><a href="#wir">Die Erfinder</a></li>
+             </ul>
+         </div>
+       </div>
+     </div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+    <div class="section main-container">
+      <p><span><a href="img/introduction.jpg" rel="prettyPhoto[gallery]"><img src="img/introduction.jpg" width="738"></a></span></p>
+      <p>Der Name ist Programm: Was zunächst als einfacher Würfel erscheint, eröffnet in der Kombination von Material, Farbe und Form vielfältige Gestaltungsmöglichkeiten. Grundmodul (60 x 60 x 60 cm) und Doppelmodul (60 x 60 x 120 cm) können als individuelle Komposition von Elementen oder als zusammenhängende, geordnete Einheit auftreten. Da die Module von allen Seiten gleich gearbeitet sind, also keine Fugen und keine Rückseite haben, ist auch die Verwendung als Raumteiler möglich. Dem Prinzip der Schlichtheit folgend, verzichtet die Gestaltung Front auf störende Griffe. Das Öffnen von Türen und Schubladen erfolgt über das Antippen (Tip-On System) der Blende.</p>
     </div>
+    <div id="splitter" class="clearfix"></div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">cubesare.github.com maintained by <a href="https://github.com/koos">koos</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div class="main-container" id="samples">
+      <h2>Beispiele</h2>
+      <div class="gallery">
+        <ul>
+          <li>
+            <span><a href="img/01.jpg" rel="prettyPhoto[gallery]"><img src="img/01.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/02.jpg" rel="prettyPhoto[gallery]"><img src="img/02.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/03.jpg" rel="prettyPhoto[gallery]"><img src="img/03.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/04.jpg" rel="prettyPhoto[gallery]"><img src="img/04.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/05.jpg" rel="prettyPhoto[gallery]"><img src="img/05.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/06.jpg" rel="prettyPhoto[gallery]"><img src="img/06.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/07.jpg" rel="prettyPhoto[gallery]"><img src="img/07.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/08.jpg" rel="prettyPhoto[gallery]"><img src="img/08.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/09.jpg" rel="prettyPhoto[gallery]"><img src="img/09.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/10.jpg" rel="prettyPhoto[gallery]"><img src="img/10.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/11.jpg" rel="prettyPhoto[gallery]"><img src="img/11.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/12.jpg" rel="prettyPhoto[gallery]"><img src="img/12.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/13.jpg" rel="prettyPhoto[gallery]"><img src="img/13.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/14.jpg" rel="prettyPhoto[gallery]"><img src="img/14.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/15.jpg" rel="prettyPhoto[gallery]"><img src="img/15.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/16.jpg" rel="prettyPhoto[gallery]"><img src="img/16.jpg" width="240px"></a></span>
+          </li>
+          <li>
+            <span><a href="img/17.jpg" rel="prettyPhoto[gallery]"><img src="img/17.jpg" width="240px"></a></span>
+          </li>
+        </ul>
+      </div><!-- End Gallery -->
     </div>
+    <div id="splitter" class="clearfix"></div>
+    <div class="main-container" id="wantacube">
+      <h2>Mein Cube?</h2>
+      <p><a href="mailto:jan.kus@mac.com">Bei Fragen schreiben Sie uns doch einfach</a></p>
+    </div>
+    <div id="splitter" class="clearfix"></div>
+    <div class="main-container" id="wir">
+      <h2>Die Erfinder</h2>
+      <p><span><a href="img/_c_l.png" rel="prettyPhoto[gallery]"><img src="img/_c_l.png" width="300px"></a></span><span class="person">Christoph Lajendäcker - Architekt - <a href="mailto:christoph@lajendaecker.de">christoph@lajendaecker.de</a></span></p>
+      <p><span><a href="img/_j_k.png" rel="prettyPhoto[gallery]"><img src="img/_j_k.png" width="300px"></a></span><span class="person">Jan Kus - Entwickler - <a href="mailto:jan.kus@mac.com">jan.kus@mac.com</a></span></p>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
-    
+    <script src="js/bootstrap.min.js"></script>
 
   </body>
 </html>
